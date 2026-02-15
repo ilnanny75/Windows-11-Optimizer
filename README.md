@@ -280,7 +280,7 @@ Questa applicazione è stata creata per rendere più semplice e sicura l'ottimiz
 
 ## 📄 Licenza
 
-Questo progetto è distribuito sotto licenza MIT - vedi il file [LICENSE](LICENSE) per maggiori dettagli.
+Questo progetto è distribuito sotto licenza GNU GPL v3- vedi il file [LICENSE](LICENSE) per maggiori dettagli.
 
 ---
 
