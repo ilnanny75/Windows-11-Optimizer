@@ -2,7 +2,7 @@
 # 🚀 Windows 11 Optimizer - Applicazione Portatile
 
 ![Versione](https://img.shields.io/badge/versione-1.0-blue)
-![Licenza](https://img.shields.io/badge/licenza-MIT-green)
+![Licenza](https://img.shields.io/badge/licenza-GPLv3-green)
 ![Windows](https://img.shields.io/badge/Windows-11-0078D6?logo=windows)
 
 > Un'applicazione portatile con interfaccia grafica per ottimizzare Windows 11 in modo semplice e sicuro.
