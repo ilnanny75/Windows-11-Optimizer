@@ -1,3 +1,4 @@
+
 # 🚀 Windows 11 Optimizer - Applicazione Portatile
 
 ![Versione](https://img.shields.io/badge/versione-1.0-blue)
@@ -117,3 +118,176 @@ Al completamento di ogni operazione riceverai una notifica che conferma il succe
 
 **Soluzione:** Apri PowerShell come amministratore e digita:
 ```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+Poi riavvia l'applicazione.
+
+### ❓ L'applicazione non si avvia
+
+**Soluzione:** Usa il file `Avvia_Optimizer.bat` oppure:
+1. Click destro su `Windows11_Optimizer.ps1`
+2. Apri con → PowerShell
+3. Conferma l'elevazione privilegi
+
+### ❓ Dopo l'ottimizzazione il PC è più lento
+
+**Soluzione:** 
+1. Usa il pulsante "Riabilita Servizi"
+2. In particolare riabilita "SysMain" e "Windows Search"
+
+### ❓ La ricerca di Windows non funziona
+
+**Soluzione:** Usa il pulsante "Riabilita Servizi" per riattivare Windows Search
+
+### ❓ Voglio annullare tutto
+
+**Soluzione:** Usa il pulsante "**RIPRISTINO COMPLETO**" nel pannello destro
+
+---
+
+## 💾 Requisiti Sistema
+
+- Windows 11 (qualsiasi versione)
+- PowerShell 5.1 o superiore (già incluso in Windows 11)
+- Privilegi di amministratore
+- .NET Framework (già incluso in Windows 11)
+
+---
+
+## 📁 File Inclusi
+```
+Windows11-Optimizer/
+├── Windows11_Optimizer.ps1  # Applicazione principale
+├── Avvia_Optimizer.bat      # Launcher rapido
+├── README.md                 # Questo file
+└── images/
+    └── screenshot.png        # Screenshot interfaccia
+```
+
+---
+
+## 🔒 Sicurezza e Privacy
+
+- 🔐 L'applicazione **NON** raccoglie dati
+- 💻 Tutto viene eseguito localmente sul tuo PC
+- 🌐 Non richiede connessione internet
+- 📡 Non invia informazioni a server esterni
+- 📖 Il codice è completamente trasparente e modificabile
+
+---
+
+## ❓ Domande Frequenti (FAQ)
+
+<details>
+<summary><strong>È sicuro usare questa applicazione?</strong></summary>
+
+Sì, tutte le operazioni sono reversibili e l'applicazione richiede conferma per ogni azione. Crea sempre un punto di ripristino prima di iniziare.
+</details>
+
+<details>
+<summary><strong>Devo riavviare dopo ogni operazione?</strong></summary>
+
+Non è necessario, ma è consigliato riavviare dopo aver completato tutte le ottimizzazioni desiderate per applicare le modifiche.
+</details>
+
+<details>
+<summary><strong>Posso usarla su laptop?</strong></summary>
+
+Sì, ma evita il "Piano Alte Prestazioni" che consuma più batteria. Usa invece le altre ottimizzazioni.
+</details>
+
+<details>
+<summary><strong>Quanto spazio su disco libererà?</strong></summary>
+
+Dipende dal tuo sistema, ma tipicamente:
+- Pulizia file temporanei: 500MB - 5GB
+- Disabilita ibernazione: 4-16GB (dimensione della RAM)
+</details>
+
+<details>
+<summary><strong>Posso eseguire solo alcune ottimizzazioni?</strong></summary>
+
+Sì! Usa i pulsanti singoli invece dell'"Ottimizzazione Completa". Ogni pulsante esegue solo l'operazione indicata.
+</details>
+
+<details>
+<summary><strong>L'applicazione modifica il registro di sistema?</strong></summary>
+
+Sì, alcune operazioni modificano chiavi di registro per disabilitare funzioni. Tutte le modifiche sono reversibili con i pulsanti di ripristino.
+</details>
+
+---
+
+## 🎯 Consigli per l'Uso Ottimale
+
+### 🎮 Per PC Gaming
+
+- ✅ Disabilita effetti visivi
+- ✅ Piano alte prestazioni
+- ✅ Disabilita app in background
+- ❌ Non disabilitare servizi Xbox se giochi su Xbox Game Pass
+
+### 💼 Per PC Ufficio
+
+- ✅ Pulisci file temporanei (regolarmente)
+- ✅ Piano bilanciato
+- ✅ Disabilita widget se non li usi
+- ⚠️ Valuta se disabilitare Windows Search (rallenta la ricerca file)
+
+### 💻 Per Laptop
+
+- ✅ Pulisci file temporanei
+- ✅ Disabilita app in background
+- ✅ Piano bilanciato (NON alte prestazioni)
+- ❌ Non disabilitare ibernazione (utile per risparmiare batteria)
+
+### 🐌 Per PC Vecchi/Lenti
+
+- ✅ Ottimizzazione completa
+- ✅ Pulisci regolarmente i file temporanei
+- ✅ Disabilita tutto ciò che non usi
+
+---
+
+## 📞 Supporto
+
+Per problemi o domande:
+- 📖 Controlla la sezione **Troubleshooting** in questo README
+- 📊 Consulta il log dell'applicazione per dettagli sugli errori
+- 💾 Usa il punto di ripristino in caso di problemi gravi
+
+---
+
+## 📝 Note Legali
+
+Questa applicazione viene fornita "così com'è" senza garanzie di alcun tipo. L'utente si assume la piena responsabilità dell'uso dell'applicazione. Si consiglia di creare un punto di ripristino prima di procedere.
+
+---
+
+## 🎉 Ringraziamenti
+
+Grazie per aver usato **Windows 11 Optimizer**! 
+
+Questa applicazione è stata creata per rendere più semplice e sicura l'ottimizzazione di Windows 11.
+
+---
+
+## 👤 Autore
+
+**ilnanny** - 2026
+
+---
+
+## 📄 Licenza
+
+Questo progetto è distribuito sotto licenza MIT - vedi il file [LICENSE](LICENSE) per maggiori dettagli.
+
+---
+
+<div align="center">
+
+**⭐ Se ti è stato utile, lascia una stella! ⭐**
+
+Made with ❤️ by ilnanny
+
+</div>
