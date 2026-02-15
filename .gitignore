@@ -1,0 +1,12 @@
+# File di sistema Windows
+desktop.ini
+Thumbs.db
+*.lnk
+
+# File temporanei
+*.tmp
+*.temp
+~*
+
+# Cartella files (duplicata)
+files/
