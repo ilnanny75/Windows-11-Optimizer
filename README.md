@@ -1,23 +1,19 @@
 # 🚀 Windows 11 Optimizer Pro
 
-Utility professionale e leggera per ottimizzare Windows 11, migliorare la privacy e rimuovere il bloatware di sistema.
+Un potente strumento open-source per velocizzare Windows 11, migliorare la privacy e rimuovere il bloatware di sistema con un'interfaccia moderna e sicura.
 
 ![Anteprima Software](preview.png)
 
-## ✨ Caratteristiche Principali
-- **Interfaccia Dark Moderna**: Design pulito e intuitivo in Dark Mode.
-- **Esecuzione Sicura**: Richiede automaticamente i permessi di Amministratore (UAC Shield).
-- **Console di Log Integrata**: Monitora in tempo reale ogni modifica effettuata.
-- **Personalizzazione**: Scegli esattamente quali ottimizzazioni applicare tramite checkbox.
-- **Portable**: Un unico file .exe che non necessita di installazione.
+## ✨ Caratteristiche
+- **Dark Mode UI**: Interfaccia grafica moderna, chiara e riposante.
+- **Log in tempo reale**: Visualizza esattamente cosa sta facendo il programma.
+- **Esecuzione come Amministratore**: Richiede automaticamente i permessi necessari.
+- **Portable**: Non necessita di installazione, basta avviare l'EXE.
 
-## 🛠 Come si usa
-1. Scarica l'ultima versione da [Releases](../../releases).
-2. Avvia Win11Optimizer_Pro.exe come amministratore.
-3. Seleziona le ottimizzazioni desiderate e clicca su **APPLICA MODIFICHE**.
-
-## 📄 Licenza
-Distribuito sotto licenza MIT. Vedi LICENSE.txt per maggiori dettagli.
+## ⚙️ Come funziona
+1. Scarica il file \Win11Optimizer_Pro.exe\.
+2. Seleziona le caselle delle ottimizzazioni desiderate.
+3. Clicca su **Applica Modifiche** e attendi il messaggio di conferma.
 
 ---
-*Sviluppato con ❤️ da [ilnanny75](https://github.com/ilnanny75)*
+*Creato da [ilnanny75](https://github.com/ilnanny75)*
