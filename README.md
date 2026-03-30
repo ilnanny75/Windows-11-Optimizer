@@ -1,3 +1,6 @@
+![Platform](https://img.shields.io/badge/platform-Windows%2011%20%7C%2010-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+---
 # 🚀 Windows 11 Optimizer Pro
 
 Un potente strumento open-source per velocizzare Windows 11, migliorare la privacy e rimuovere il bloatware di sistema con un'interfaccia moderna e sicura.
